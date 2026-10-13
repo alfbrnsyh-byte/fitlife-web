@@ -1,0 +1,98 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page">
+
+        <header class="navbar">
+            <div class="logo">FITLIFE</div>
+
+            <nav>
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#workout" class="nav-link">Workout</a>
+                <a href="#nutrition" class="nav-link">Nutrition</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+        </header>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>
+                    LIVE HEALTHY,<br>
+                    LIVE BETTER.
+                </h1>
+
+                <p>
+                    Start your healthy journey<br>
+                    with FitLife.
+                </p>
+
+                <a href="login.html" class="button" id="getStarted">
+                    Get Started
+                </a>
+
+                <br><br>
+
+                <button class="tips-button" id="tipsButton">
+                    Healthy Tips
+                </button>
+
+                <p id="tipsText" hidden>
+                    Minum air yang cukup, makan makanan bergizi,
+                    dan berolahraga secara teratur.
+                </p>
+            </div>
+
+            <div class="banana">🍌🏋️</div>
+        </section>
+
+        <section class="why">
+            <h2>WHY FITLIFE?</h2>
+
+            <div class="features">
+
+                <button class="feature" data-feature="Workout" id="workout">
+                    <div class="feature-image">🏋️</div>
+                    <h3>Workout</h3>
+                </button>
+
+                <button class="feature" data-feature="Nutrition" id="nutrition">
+                    <div class="feature-image">🥗</div>
+                    <h3>Nutrition</h3>
+                </button>
+
+                <button class="feature" data-feature="Healthy Life">
+                    <div class="feature-image">❤️</div>
+                    <h3>Healthy Life</h3>
+                </button>
+
+            </div>
+
+            <p id="featureInfo">
+                Pilih salah satu fitur FitLife.
+            </p>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About FitLife</h2>
+            <p>
+                FitLife membantu pengguna membangun kebiasaan
+                olahraga dan pola makan yang lebih sehat.
+            </p>
+        </section>
+
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="landing.js"></script>
+</body>
+</html>
+```
