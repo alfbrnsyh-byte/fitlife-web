@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="auth-page">
+
+        <div class="register-box">
+
+            <div class="auth-logo">
+                FITLIFE
+            </div>
+
+            <h2>Create Account</h2>
+
+            <form action="register-proses.php" method="post">
+
+                <label>Nama</label>
+                <input type="text" name="nama">
+
+                <label>Email</label>
+                <input type="email" name="email">
+
+                <label>Password</label>
+                <input type="password" name="password">
+
+                <button type="submit" name="register" class="auth-button">
+                    Register
+                </button>
+
+            </form>
+
+            <p class="account-text">
+                Already have an account?
+                <a href="login.php">Login</a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
